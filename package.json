@@ -1,0 +1,66 @@
+{
+    "name": "@aetherinox/grunt-runtime",
+    "version": "1.0.0",
+    "description": "Track and display the elapsed time for grunt tasks once executed",
+    "homepage": "https://github.com/Aetherinox/grunt-runtime",
+    "author": "Aetherinox <adminservx@proton.me>",
+    "contributors": [
+        {
+            "name": "Aetherinox",
+            "email": "adminservx@proton.me",
+            "url": "https://github.com/Aetherinox"
+        },
+        {
+            "name": "AdminServ",
+            "email": "adminservx@proton.me",
+            "url": "https://github.com/AdminServ"
+        }
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Aetherinox/grunt-runtime.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Aetherinox/grunt-runtime/issues"
+    },
+    "license": "MIT",
+    "keywords": [
+        "grunt",
+        "tasks",
+        "time",
+        "elapsed",
+        "statistics",
+        "stats",
+        "perf",
+        "performance"
+    ],
+    "dependencies": {
+      "chalk": "^1.0.0",
+      "date-time": "^1.1.0",
+      "figures": "^1.0.0",
+      "hooker": "^0.2.3",
+      "number-is-nan": "^1.0.0",
+      "pretty-ms": "^2.1.0",
+      "text-table": "^0.2.0",
+      "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+      "kcd-scripts": "^15.0.1",
+      "all-contributors-cli": "^6.26.1",
+      "@types/uuid": "^9.0.8",
+      "grunt": "^2.0.0",
+      "grunt-cli": "^1.4.3",
+      "xo": "^0.17.1"
+    },
+    "xo": {
+      "rules": {
+        "xo/no-process-exit": 0
+      }
+    },
+    "eslintConfig": {
+        "extends": "./node_modules/kcd-scripts/eslint.js"
+    }
+}
